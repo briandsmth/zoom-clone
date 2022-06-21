@@ -14,7 +14,7 @@ class Button extends StatelessWidget {
         onPressed: onPress,
         child: Text(
           text,
-          style: TextStyle(fontSize: 17),
+          style: const TextStyle(fontSize: 17),
         ),
         style: ElevatedButton.styleFrom(
             primary: buttonColor,
